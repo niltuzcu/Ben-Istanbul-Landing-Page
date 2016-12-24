@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Ben Istanbul</title>
+
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+<link href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="bower_components/Arctext.js/css/style.css" />
+<script src="bower_components/Arctext.js/js/jquery.arctext.js"></script>
+<script src="https://use.fontawesome.com/7802db8325.js"></script>
+<link href="main.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container" style="z-index: 99999">
+    <span class="line-1">BEN</span>
+    <span class="line-2">ISTANBUL</span>
+    <span class="line-3">TARİHTEN İSTANBUL KARAKTERLERİ</span>
+    <!-- <span style="margin-top: 8vh;" class="line-6">Tarihten İstanbuL Karekterleri</span> -->
+</div>
+
+
+	<div class="row row-person" style="margin-top:15vh">
+		<div class="col-sm-12 text-center" style="display: table">
+			<div class="person-div">
+				<img class="person-img" src="img/ingilizturist.png">
+				<p class="img-caption">İNGİLİZ TURİST<br>1928</p>
+			</div>
+			<div class="person-div">
+				<img class="person-img" src="img/lutfikirdar.png">
+				<p class="img-caption">LÜTFİ KIRDAR<br>1949</p>
+			</div>
+			<div class="person-div">
+				<img class="person-img" src="img/gurbetkusu.png">
+				<p class="img-caption">GURBET KUŞLARI<br>1964</p>
+			</div>
+			<div class="person-div">
+				<img class="person-img" src="img/birlevanten.png">
+				<p class="img-caption">BİR LEVANTEN<br>1920/60</p>
+			</div>
+			<div class="person-div">
+				<img class="person-img" src="img/aylakadam.png">
+				<p class="img-caption">AYLAK ADAM<br>1959</p>
+			</div>
+			<div class="person-div">
+				<img class="person-img" src="img/isikailesi.png">
+				<p class="img-caption">IŞIK AİLESI<br>1946</p>
+			</div>
+		</div>
+	</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content" style="height: 500px !important">
+
+      <div class="modal-body">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+
+<div class="logo">
+  <div class="line topLine"></div>
+  <div class="content">
+    <div class="vintage name">
+    	    <span class="line-1">BEN</span>
+    <span class="line-2">ISTANBUL</span>
+    </div>
+    <div class="text-platform">- Interaktif hikaye anlatim platformu-</div>
+    <div class="desc">20. yüzyıl boyunca İstanbul'da değişen gündelik hayat akışını çeşitli kimlikler üzerinden izleyin</div>
+    <div class="links">
+      <a target="_blank"> Yapımı sürmekte olan platformun tanıtım sayfasına hoşgeldiniz</a>
+    </div>
+  </div>
+  <div class="line bottomLine"></div>
+</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- 	<div class="row row-person" style="margin-top:4vh">
+		<div class="col-sm-12 text-center" style="display: table">
+			<div class="person-div">
+				<img class="person-img" src="img/person1.png">
+				<p class="img-caption">Sabri Bey, 1944</p>
+			</div>
+			<div class="person-div">
+				<img class="person-img" src="img/person1.png">
+				<p class="img-caption">Sabri Bey, 1944</p>
+			</div>
+			<div class="person-div">
+				<img class="person-img" src="img/person1.png">
+				<p class="img-caption">Sabri Bey, 1944</p>
+			</div>
+			<div class="person-div">
+				<img class="person-img" src="img/person1.png">
+				<p class="img-caption">Sabri Bey, 1944</p>
+			</div>
+			<div class="person-div">
+				<img class="person-img" src="img/person1.png">
+				<p class="img-caption">Sabri Bey, 1944</p>
+			</div>
+		</div>
+	</div> -->
+
+		<div class="filter-white"></div>
+		<div class="filter"></div>
+
+        <video autoplay="" loop="" class="fillWidth fadeIn wow collapse in" data-wow-delay="0.5s" id="video-background">
+            <source src="img/ist-1960-movie.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
+        </video>
+
+<script type="text/javascript">
+
+$(document).ready(function() {
+	$(".line-2").arctext({radius: 250});
+	$("#myModal").modal();
+});
+</script>
+
+
+</body>
